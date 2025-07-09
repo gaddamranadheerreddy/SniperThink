@@ -43,7 +43,8 @@ const HeroSection = () => {
             //   </Carousel.Caption>
             // </Carousel.Item>
 
-            <Carousel.Item key={index} data-aos="fade-in" data-aos-duration="1500">
+            <Carousel.Item key={index} >
+                {/* data-aos="fade-in" data-aos-duration="1500" */}
                 <img
                     className="d-block w-100"
                     src={slide.image}

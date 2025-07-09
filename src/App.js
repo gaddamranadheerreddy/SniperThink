@@ -11,20 +11,20 @@ import FeaturesSection from './components/FeaturesSection';
 import PricingSection from './components/PricingSection';
 
 import 'aos/dist/aos.css';
-import AOS from 'aos';
+// import AOS from 'aos';
 
-AOS.init({
-  duration: 1000,       // animation duration (ms)
-  once: true,           // only animate once
-});
+// AOS.init({
+//   duration: 1000,       // animation duration (ms)
+//   once: true,           // only animate once
+// });
 
 
 
 function App() {
-  
-  useEffect(() => {
-  AOS.init({ duration: 1000, once: true });
-}, []);
+
+//   useEffect(() => {
+//   AOS.init({ duration: 1000, once: true });
+// }, []);
 
   return (
     <div className="">
